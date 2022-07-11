@@ -1,0 +1,346 @@
+version: "3.0"
+
+rules:
+
+- rule: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: fine
+  steps:
+  - intent: fine
+  - action: utter_help
+- rule: made
+  steps:
+  - intent: manufactured
+  - action: utter_made
+#1. Name asking
+- rule: ask_name
+  steps:
+  - intent: name
+  - action: utter_name
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+# 2. Hospital Booking.............
+- rule: hospital_booking_active
+  steps:
+  - intent: hospital_booking
+  - action: hospital_booking_form
+  - active_loop: hospital_booking_form
+- rule: hospital_booking_submit
+  condition:
+# Condition that form is active.
+  - active_loop: hospital_booking_form
+  steps:
+# Form is deactivated
+  - action: hospital_booking_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_hospital
+  - action: action_restart
+
+# 3.Covid 19 Tracker........
+- rule: covid_19
+  steps:
+  - intent: covid_19
+  - action: place_form
+  - active_loop: place_form
+- rule: place_submit
+  condition:
+# Condition that form is active.
+  - active_loop: place_form
+  steps:
+# Form is deactivated
+  - action: place_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_place
+  - action: action_restart
+
+
+
+# 4.Disease symptoms..........
+
+- rule: diease_symptoms_active
+  steps:
+  - intent: diease_symptoms
+  - action: disease_symptoms_form
+  - active_loop: disease_symptoms_form
+- rule: diease_symptoms_submit
+  condition:
+# Condition that form is active.
+  - active_loop: disease_symptoms_form
+  steps:
+# Form is deactivated
+  - action: disease_symptoms_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_symptoms
+  - action: action_restart
+
+# 5.BMI Calculator
+
+- rule: bmi_calculator
+  steps:
+  - intent: bmi_calculate
+  - action: bmi_form
+  - active_loop:  bmi_form
+- rule: bmi_submit
+  condition:
+# Condition that form is active.
+  - active_loop: bmi_form
+  steps:
+# Form is deactivated
+  - action: bmi_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_bmi_calculator
+  - action: action_restart
+
+# 6. Pill remainder
+
+- rule: pill_remainder_rule
+  steps:
+  - intent: pill_remainder
+  - action: pill_remainder_form
+  - active_loop:  pill_remainder_form
+- rule: pill_remainder_submit
+  condition:
+# Condition that form is active.
+  - active_loop: pill_remainder_form
+  steps:
+# Form is deactivated
+  - action: pill_remainder_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_pill_remainder
+  - action: action_restart
+
+# 7. Hospital Recommender
+
+- rule: hospital_recommender_rule
+  steps:
+  - intent: hospital_recommender
+  - action: hospital_recommender_form
+  - active_loop: hospital_recommender_form
+- rule: hospital_recommender_submit
+  condition:
+# Condition that form is active.
+  - active_loop: hospital_recommender_form
+  steps:
+# Form is deactivated
+  - action: hospital_recommender_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_hospital_recommender
+  - action: action_restart
+
+
+
+# 8. Ambulance Service
+
+- rule: ambulance_service_rule
+  steps:
+  - intent: ambulance_service
+  - action: ambulance_service_form
+  - active_loop: ambulance_service_form
+- rule: ambulance_service_submit
+  condition:
+# Condition that form is active.
+  - active_loop: ambulance_service_form
+  steps:
+# Form is deactivated
+  - action: ambulance_service_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_ambulance_service
+  - action: action_restart
+
+# 8. Healthy life style tips
+
+- rule: healthy_tips
+  steps:
+  - intent: healthy_lifestyle_tips
+  - action: utter_healthy_tips
+  - action: action_healthy_tips
+
+#9 Calorie Tracker
+
+- rule: calorie_tracker_rule
+  steps:
+  - intent: calorie_tracker
+  - action: calorie_tracker_form
+  - active_loop: calorie_tracker_form
+- rule: calorie_tracker_submit
+  condition:
+# Condition that form is active.
+  - active_loop: calorie_tracker_form
+  steps:
+# Form is deactivated
+  - action: calorie_tracker_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_calorie_tracker
+  - action: action_restart
+
+#10 Health News teller
+
+- rule: health_news
+  steps:
+  - intent: news_teller
+  - action: utter_news
+  - action: action_health_news
+
+#11 Calorie Info teller
+
+- rule: calorie_info_rule
+  steps:
+  - intent: calorie_info
+  - action: calorie_info_form
+  - active_loop: calorie_info_form
+- rule: calorie_info_submit
+  condition:
+# Condition that form is active.
+  - active_loop: calorie_info_form
+  steps:
+# Form is deactivated
+  - action: calorie_info_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_calorie_info
+  - action: action_restart
+
+#12 Blood Bank details
+
+- rule: blood_bank_rule
+  steps:
+  - intent: blood_bank
+  - action: blood_bank_form
+  - active_loop: blood_bank_form
+- rule: blood_bank_submit
+  condition:
+# Condition that form is active.
+  - active_loop: blood_bank_form
+  steps:
+# Form is deactivated
+  - action: blood_bank_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_blood_bank
+  - action: action_restart
+
+
+#13 Add Blood Bank details
+
+- rule: add_blood_bank_repersentative_rule
+  steps:
+  - intent: add_blood_bank_repersentative
+  - action: add_blood_bank_repersentative_form
+  - active_loop: add_blood_bank_repersentative_form
+- rule: add_blood_bank_repersentative_submit
+  condition:
+# Condition that form is active.
+  - active_loop: add_blood_bank_repersentative_form
+  steps:
+# Form is deactivated
+  - action: add_blood_bank_repersentative_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_add_blood_bank_repersentative
+  - action: action_restart
+
+#13 Update Blood Bank details
+
+- rule: update_blood_bank_repersentative_rule
+  steps:
+  - intent: update_blood_bank_repersentative
+  - action: update_blood_bank_repersentative_form
+  - active_loop: update_blood_bank_repersentative_form
+- rule: update_blood_bank_repersentative_submit
+  condition:
+# Condition that form is active.
+  - active_loop: update_blood_bank_repersentative_form
+  steps:
+# Form is deactivated
+  - action: update_blood_bank_repersentative_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_update_blood_bank_repersentative
+  - action: action_restart
+
+
+#14 Add ambulance driver details
+
+- rule: add_ambulance_driver_rule
+  steps:
+  - intent: add_ambulance_driver
+  - action: add_ambulance_driver_form
+  - active_loop: add_ambulance_driver_form
+- rule: add_ambulance_driver_submit
+  condition:
+# Condition that form is active.
+  - active_loop: add_ambulance_driver_form
+  steps:
+# Form is deactivated
+  - action: add_ambulance_driver_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_add_ambulance_driver
+  - action: action_restart
+
+
+#15 update ambulance driver details
+
+- rule: update_ambulance_driver_rule
+  steps:
+  - intent: update_ambulance_driver
+  - action: update_ambulance_driver_form
+  - active_loop: update_ambulance_driver_form
+- rule: update_ambulance_driver_submit
+  condition:
+# Condition that form is active.
+  - active_loop: update_ambulance_driver_form
+  steps:
+# Form is deactivated
+  - action: update_ambulance_driver_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_update_ambulance_driver
+  - action: action_restart
+
+
+
+
+

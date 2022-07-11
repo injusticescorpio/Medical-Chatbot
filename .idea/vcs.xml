@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Arista_WEB_APP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Arista_final" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Arista_final/Arista 2.O/actions/Disease_Prediction_from_symptoms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Arista_old_files/Arista_Heart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Arista_old_files/Arista_final" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Arista_old_files/Chatroom/Chatbot-Widget" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Arista_old_files/Medical Website/Arista_frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Arista_old_files/Medical Website/Arista_prototype" vcs="Git" />
+  </component>
+</project>

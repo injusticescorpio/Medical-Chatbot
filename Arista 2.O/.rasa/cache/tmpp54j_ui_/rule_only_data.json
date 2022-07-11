@@ -1,0 +1,19 @@
+{
+  "rule_only_slots": [],
+  "rule_only_loops": [
+    "ambulance_service_form",
+    "add_ambulance_driver_form",
+    "calorie_info_form",
+    "hospital_booking_form",
+    "place_form",
+    "calorie_tracker_form",
+    "update_ambulance_driver_form",
+    "disease_symptoms_form",
+    "bmi_form",
+    "hospital_recommender_form",
+    "add_blood_bank_repersentative_form",
+    "pill_remainder_form",
+    "blood_bank_form",
+    "update_blood_bank_repersentative_form"
+  ]
+}

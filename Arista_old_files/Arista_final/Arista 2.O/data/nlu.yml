@@ -1,0 +1,227 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hy
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: hospital_booking
+  examples: |
+    - i like to book a hospital
+    - hospital booking
+    - i like to book
+    - can you  please book a hospital for me
+    - i want to book a hospital
+    - immediately book a hospital for me
+    - Hello arista  need to book a hospital
+    - i just need to book a hospital
+- intent: covid_19
+  examples: |
+    - what is the covid 19 details
+    - covid 19 of a place
+    - covid in kerala
+    - covid in india
+    - i just need to know the covid 19 details of a place
+    - tell me about the covid 19 details
+    - hey arista tell me about covid 19 details
+- intent: diease_symptoms
+  examples: |
+    - iam having fever
+    - i like to predict a disease from symptoms
+    - symtoms of a particular disease
+    - hey arista iam having fever please help me
+    - arista iam having fever
+    - i like to know more about my disease
+    - fever
+- intent: fine
+  examples: |
+    - iam fine
+    - fine
+    - 5n
+    - going great
+    - going fine
+    - booring
+    - iam good thank you for asking
+    - haaa iam fine
+- intent: name
+  examples: |
+    - what is your name?
+    - ur name please
+    - your gud name please
+    - hey ur name yetha
+    - ninte peru yetha
+    - tell me your name
+    - what is your name
+- intent: healthy_lifestyle_tips
+  examples: |
+    - suggest a healthy lifestyle tips.
+    - tips to stay healthy 
+    - healthy lifestyle to stay
+    - can you please give some tips to stay healthy
+    - healthy tips
+    - tips to stay fit and healthy
+    - tips to rise like a sun
+    - give me some tips to rise like a sun
+    - gives me some tips to stay fit and healthy
+    - hello arista gives me some tips to stay fit and healthy
+    - yenniq kurachu tips tharumo healthy and fit akkan
+- intent: bmi_calculate
+  examples: |
+    - i want to calculate my bmi
+    - bmi calculate
+    - check my bmi
+    - bmi calculator
+    - Body mass index
+    - I want to check my Body mass index
+    - i want to calculate my bmi
+    - Help me in finding the bmi
+    - bmi details
+    - hey arista i want to calculate my bmi
+- intent: hospital_recommender
+  examples: |
+    - i want to find the best hospital in the place
+    - best hospital in this place
+    - name some of the best hospital in this place
+    - hey arista i want to find the best hospital in the place
+    - best hospital
+    - recommend the best hospital in this area
+    - suggest me some of the best hospital in this area
+    - recommend me with the best hospital
+- intent: pill_remainder
+  examples: |
+    - i want to set a pill_remainder
+    - set a pill_remainder for me arista
+    - arista please remind me on taking medicines
+    - remind me on taking pills
+    - remind me on taking medicines
+    - please remind me on taking medicines
+    - remind me on taking pills
+- intent: ambulance_service
+  examples: |
+    - i want to book an ambulance immediately
+    - ambulance service needed
+    - arista i want to book an ambulance immediately
+    - please help me in booking an ambulance
+    - ambulance booking
+    - can you please help me in booking an ambulance
+- intent: blood_bank
+  examples: |
+    - emergency for blood please help
+    - needed 2 units of blood 
+    - emergency for blood 
+    - urgent for blood
+    - arista i need 3 units of blood it's urgent
+    - needed blood for operation
+
+- intent: calorie_tracker
+  examples: |
+    - i want to set a calorie tracker
+    - i would like to set a calorie tracker
+    - please help me in setting a calorie tracker 
+    - i wish to set a calorie tracker
+    - i want to set a calorie tracker
+    - help me in setting a calorie tracker
+- intent: calorie_info
+  examples: |
+    - i want to calorie information of a food
+    - Food calorie information
+    - calorie information of a food
+    - calorie food information
+    - food information
+    - i like to know the calorie info of a particular food
+- intent: news_teller
+  examples: |
+    - i like to health news information
+    - latest health news
+    - educate me with latest health news
+    - health news please 
+    - provide me with the latest health news
+    - hello provide me the latest health news
+    - current health news
+- intent: manufactured
+  examples: |
+    - who made you?
+    - tell me who made you?
+    - did arjun made you?
+    - arista who made you?
+    - who built you?
+    - In which language are you written in?
+    - tell me about the techical stack
+
+- intent: add_ambulance_driver
+  examples: |
+    - i want to create an ambulance user id
+    - i want to add my details to the ambulance service as an ambulance driver 
+    - add ambulance driver details
+    - i like to create a new ambulance driver account inorder to save life
+    - create ambulance driver account for me
+    - help me in creating the ambulance_service
+    - add ambulance driver details
+    - help me creating the ambulance driver service
+
+- intent: update_ambulance_driver
+  examples: |
+    - i want to update my ambulance details please
+    - update ambulance user
+    - update my ambulance personal details
+    - i like to update my ambulance driver details
+    - ambulance driver details updation
+    - i want to update my ambulance driver details
+    - please help me to update my ambulance driver details
+
+- intent: add_blood_bank_repersentative
+  examples: |
+    - i want to create an blood bank representative id
+    - i want to add my details to the blood bank account
+    - add blood bank representative details
+    - i like to create a representative id for blood bank 
+    - create blood bank representative account for me
+    - help me in creating the blood bank account
+
+- intent: update_blood_bank_repersentative
+  examples: |
+    - i want to update my blood bank representative details please
+    - update blood bank representative details
+    - update my bloodbank representative details
+    - i like to update my blood bank representative details
+    - blood bank details updation
+    - i want to update my blood bank details
+    - please help me to update my blood bank representative details
+    - please help me in updating my blood bank representative details
+    
+
+
+      
+
+
+
+
+
+  
+    
+  

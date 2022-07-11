@@ -1,0 +1,66 @@
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% /* { border-color: white; } */
+}
+a{
+  font-family: 'Yusei Magic', sans-serif;
+  color: #e7e7e7;
+}
+
+h1{
+  font-family: 'Yusei Magic', sans-serif;
+  color:black;
+}
+h5{
+  font-family: 'Yusei Magic', sans-serif;
+  color:black;
+}
+
+
+footer {
+	padding: 15px;
+	background-color: #000;
+}
+
+footer p {
+	color: #B7B7B7;
+	margin: 0;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1.6px;
+}
+
+footer p a {
+	color: #fff;
+}
+
+footer p a span {
+	color: #FCBE03;
+	font-size: 10px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+#details1 {
+font-size: 25px;
+color: white;
+
+}

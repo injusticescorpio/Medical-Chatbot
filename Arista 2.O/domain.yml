@@ -1,0 +1,704 @@
+version: "3.0"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- fine
+- name
+- greet
+- covid_19
+- goodbye
+- hospital_booking
+- diease_symptoms
+- healthy_lifestyle_tips
+- bmi_calculate
+- hospital_recommender
+- pill_remainder
+- ambulance_service
+- news_teller
+- calorie_info
+- calorie_tracker
+- manufactured
+- blood_bank
+- add_ambulance_driver
+- update_ambulance_driver
+- add_blood_bank_repersentative
+- update_blood_bank_repersentative
+
+responses:
+  utter_ask_blood_group :
+  - text: "Enter your blood group"
+  utter_ask_name_of_person:
+  - text: "enter your name"
+  utter_ask_no_of_units:
+  - text: Enter the number of units of blood you want {name_of_person}
+  utter_ask_case:
+  - text: Enter the case {name_of_person}
+  utter_ask_required_date:
+  - text: Enter the required date you want the {no_of_units} units of blood
+  utter_ask_admitted_hospital:
+  - text: "Enter the admitted_hospital"
+  utter_ask_bleeding_place:
+  - text: "Enter the bleeding place"
+  utter_ask_bleeding_time:
+  - text: "Enter the bleeding time"
+  utter_ask_district:
+  - text: "Enter the district"
+  utter_ask_contact_number:
+  - text: "Enter yor contact number"
+  utter_ask_bystander_number:
+  - text: "Enter yor bystander details including address and phone number"
+  utter_ask_representative_name:
+  - text: "Enter the your name"
+  utter_ask_representative_mobile:
+  - text: Okey {representative_name} Enter phone number
+  utter_ask_representative_place:
+  - text: Enter your place and state seperated by comma
+  utter_ask_representative_name1:
+  - text: "Enter the your name"
+  utter_ask_representative_mobile1:
+  - text: Okey {representative_name1} Enter phone number
+  utter_ask_representative_place1:
+  - text: Enter your place and state seperated by comma
+  utter_ask_representative_id:
+  - text: Okey {representative_name1} please enter the unique that I gave earlier
+  utter_ask_driver_name:
+  - text: Enter your name
+  utter_ask_driver_mobile:
+  - text: Okey {driver_name} Enter phone number
+  utter_ask_driver_place:
+  - text: Enter your place and state seperated by comma
+  utter_ask_driver_name1:
+  - text: Enter your name
+  utter_ask_driver_mobile1:
+  - text: Okey {driver_name1} Enter phone number
+  utter_ask_driver_place1:
+  - text: Enter your place and state seperated by comma
+  utter_ask_driver_id:
+  - text: Oke {driver_name1} please enter the unique that I gave earlier
+
+  utter_made:
+  - text: |
+            4 Cool and energetic guyz created me they are ArJuN DeNnIS AdHaRsH and AlLeN!
+            Oke I was mostly written in Python and the techical stacks that Iam using are as follows:
+            RASA=>Chatbot Framework
+            Scikit Learn=>  ML Libarary.
+            Beside these I also use
+            Twilio,Django,ngrok,flask,API,HTML,CSS,JS
+  utter_news:
+  - text: "Okey Boss I'll fetch you the latest news as soon as possible"
+  utter_ask_food_info:
+  - text: "Enter the food item you want to know the calorie details"
+  utter_ask_name3:
+  - text: "Enter your name"
+  utter_ask_food_items:
+  - text: | 
+            Okey {name3} enter your daily food items seperated by commas, 
+            Note I will calculate the food items calorie details according to 100 grams,if this is not the case you can manually add like
+            for example If you are adding  chicken your diet you can specify its dish along with the portion in grams that you will consume.
+            like Chilli Chicken 200 grams
+  utter_ask_lifestyle:
+  - text: |
+            Okey {name3} how active are you? please choose option from the list of categories
+            Categories:
+              - 1 little to no exercise and work a desk job
+              - 2 light exercise 1-3 days per week
+              - 3 moderate exercise 3-5 days per week
+              - 4 heavy exercise 6-7 days per week
+              - 5 strenuous training 2 times a day
+            Enter Option number
+  utter_ask_weight_info:
+  - text: |
+            Okey {name3} Do you want to reduce or maintain your weight?
+  utter_ask_name2:
+  - text: "Enter your name"
+  utter_ask_weight:
+  - text: "Enter your weight in kg"
+  utter_ask_height:
+  - text: "Enter your height in meters"
+  utter_ask_hospital_place:
+  - text: "Enter the place you want to discover the best hospital available in the region"
+  utter_ask_number_of_medicine:
+  - text: "Enter the number of Medicines you want to eat"
+  utter_ask_name_user:
+  - text: "Enter your name "
+  utter_ask_contact_user:
+  - text: |
+            Oke {name_user} Enter your contact number including country code (eg:+91 for india)
+  utter_ask_email_user:
+  - text: Enter your email id {name_user}
+  utter_ask_medicine_details:
+  - text: |
+            Enter your medicine details seperated by comma in the below format 
+            <<Medicine name>> <<Number of times you want to take the medicine>> <<Specify the timings as Morning Noon Night >> 
+            for example if I want to take a medicine say A for 2 days for day and night then it should be specified as, 
+            A 2 day night,like wise you can add any number of medicines."
+  utter_ask_patient_name:
+  - text: "Enter the name of the person you want to book the ambulance"
+  utter_ask_contact:
+  - text: "Enter the contact details inorder to reach to that person"
+  utter_ask_ambulance_place:
+  - text: "Enter the place where you want the ambulance"
+  utter_healthy_tips:
+  - text: "Okey, try the following steps everyday inorder to stay healthy and fit"
+  utter_greet:
+  - text: Hey! How can i help u today?
+  utter_goodbye:
+  - text: Bye
+  utter_ask_place:
+  - text: Enter the country that you find covid 19 details
+  utter_ask_name:
+  - text: Enter your name
+  utter_ask_age:
+  - text: Enter your age
+  utter_ask_hospital_name:
+  - text: Enter the hospital that you want to get booked
+  utter_ask_place1:
+  - text: Enter your place
+  utter_ask_name1:
+  - text: Enter your name
+  utter_ask_symptoms:
+  - text: 'Let me know the symptoms you are  facing Note:Please type the symtom seperated by comma '
+  utter_ask_any_other_symptoms:
+  - text: Is there any other symptoms if you are have any please write those seperated by comma?
+  utter_help:
+  - text: 'How can i help you today?'
+  utter_name:
+  - text: 'My name is Arista, a medical chatbot capable of predicting the symptoms, prevention of various diseases without spending a single penny.'
+
+actions:
+- action_hospital
+- action_place
+- action_symptoms
+- utter_greet
+- utter_help
+- utter_name
+- action_healthy_tips
+- utter_healthy_tips
+- action_bmi_calculator
+- action_pill_remainder
+- action_ambulance_service
+- action_hospital_recommender
+- action_calorie_tracker
+- action_calorie_info
+- action_health_news
+- utter_news
+- utter_made
+- action_blood_bank
+- action_add_blood_bank_repersentative
+- action_update_blood_bank_repersentative
+- action_update_ambulance_driver
+- action_add_ambulance_driver
+
+slots:
+  place:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+         - active_loop: place_form
+           requested_slot: place
+  full_details:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: place_form
+            requested_slot: full_details
+  name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: hospital_booking_form
+            requested_slot: name
+
+  age:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: hospital_booking_form
+            requested_slot: age
+  hospital_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: hospital_booking_form
+            requested_slot: hospital_name
+  place1:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: hospital_booking_form
+            requested_slot: place1
+
+  name1:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: disease_symptoms_form
+            requested_slot: name1
+  symptoms:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: disease_symptoms_form
+            requested_slot: symptoms
+  any_other_symptoms:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: disease_symptoms_form
+            requested_slot: any_other_symptoms
+  number_of_medicine:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: pill_remainder_form
+            requested_slot: number_of_medicine
+  contact_user:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: pill_remainder_form
+            requested_slot: contact_user
+  email_user:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: pill_remainder_form
+            requested_slot: email_user
+  name_user:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: pill_remainder_form
+            requested_slot: name_user
+
+  medicine_details:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: pill_remainder_form
+            requested_slot: medicine_details
+  patient_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: ambulance_service_form
+            requested_slot: patient_name
+  contact:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: ambulance_service_form
+            requested_slot: contact
+  ambulance_place:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: ambulance_service_form
+            requested_slot: ambulance_place
+  hospital_place:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: hospital_recommender_form
+            requested_slot: hospital_place
+  name2:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: bmi_form
+            requested_slot: name2
+
+  weight:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: bmi_form
+            requested_slot: weight
+  height:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: bmi_form
+            requested_slot: height
+  name3:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: calorie_tracker_form
+            requested_slot: name3
+  food_items:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: calorie_tracker_form
+            requested_slot: food_items
+  lifestyle:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: calorie_tracker_form
+            requested_slot: lifestyle
+  weight_info:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: calorie_tracker_form
+            requested_slot: weight_info
+  food_info:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop:  calorie_info_form
+            requested_slot: food_info
+  blood_group:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: blood_bank_form
+            requested_slot: blood_group
+  name_of_person:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: blood_bank_form
+            requested_slot: name_of_person
+  no_of_units:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: blood_bank_form
+            requested_slot: no_of_units
+  case:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: blood_bank_form
+            requested_slot: case
+  required_date:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: blood_bank_form
+            requested_slot: required_date
+  admitted_hospital:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: blood_bank_form
+            requested_slot: admitted_hospital
+  bleeding_place:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: blood_bank_form
+            requested_slot: bleeding_place
+  bleeding_time:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: blood_bank_form
+            requested_slot: bleeding_time
+  district:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: blood_bank_form
+            requested_slot: district
+  contact_number:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: blood_bank_form
+            requested_slot: contact_number
+  bystander_number:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: blood_bank_form
+            requested_slot: bystander_number
+
+  representative_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: add_blood_bank_repersentative_form
+            requested_slot: representative_name
+
+  representative_mobile:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: add_blood_bank_repersentative_form
+            requested_slot: representative_mobile
+
+  representative_place:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: add_blood_bank_repersentative_form
+            requested_slot: representative_place
+
+  representative_name1:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: update_blood_bank_repersentative_form
+            requested_slot: representative_name1
+
+  representative_mobile1:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: update_blood_bank_repersentative_form
+            requested_slot: representative_mobile1
+
+  representative_place1:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: update_blood_bank_repersentative_form
+            requested_slot: representative_place1
+
+  representative_id:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: update_blood_bank_repersentative_form
+            requested_slot: representative_id
+
+  driver_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: add_ambulance_driver_form
+            requested_slot: driver_name
+
+  driver_mobile:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: add_ambulance_driver_form
+            requested_slot: driver_mobile
+
+  driver_place:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: add_ambulance_driver_form
+            requested_slot: driver_place
+
+
+  driver_name1:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: update_ambulance_driver_form
+            requested_slot: driver_name1
+  driver_mobile1:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: update_ambulance_driver_form
+            requested_slot: driver_mobile1
+  driver_place1:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: update_ambulance_driver_form
+            requested_slot: driver_place1
+  driver_id:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: update_ambulance_driver_form
+            requested_slot: driver_id
+
+forms:
+  place_form:
+    required_slots:
+      - place
+  hospital_booking_form:
+    required_slots:
+      - name
+      - age
+      - hospital_name
+      - place1
+  disease_symptoms_form:
+    required_slots:
+      - name1
+      - symptoms
+      - any_other_symptoms
+  bmi_form:
+    required_slots:
+      - name2
+      - weight
+      - height
+  hospital_recommender_form:
+    required_slots:
+      - hospital_place
+  pill_remainder_form:
+    required_slots:
+      - number_of_medicine
+      - name_user
+      - contact_user
+      - email_user
+      - medicine_details
+  ambulance_service_form:
+    required_slots:
+      - patient_name
+      - contact
+      - ambulance_place
+  calorie_tracker_form:
+    required_slots:
+      - name3
+      - food_items
+      - lifestyle
+      - weight_info
+  calorie_info_form:
+    required_slots:
+      - food_info
+  blood_bank_form:
+    required_slots:
+      - blood_group
+      - name_of_person
+      - no_of_units
+      - case
+      - required_date
+      - admitted_hospital
+      - bleeding_place
+      - bleeding_time
+      - district
+      - contact_number
+      - bystander_number
+  add_blood_bank_repersentative_form:
+    required_slots:
+      - representative_name
+      - representative_mobile
+      - representative_place
+  update_blood_bank_repersentative_form:
+    required_slots:
+      - representative_name1
+      - representative_mobile1
+      - representative_place1
+      - representative_id
+  add_ambulance_driver_form:
+    required_slots:
+      - driver_name
+      - driver_mobile
+      - driver_place
+  update_ambulance_driver_form:
+    required_slots:
+      - driver_name1
+      - driver_mobile1
+      - driver_place1
+      - driver_id
+
+
+
+
+
+
