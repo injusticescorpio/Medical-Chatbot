@@ -15,4 +15,4 @@ Inorder to run globally instead of the 3 and 4 commands use the following the co
     >  D:\Arista 2.O> rasa run actions --cors "*" --debug
     >  D:\Arista 2.O> rasa run -m models --enable-api --cors "*" --debug
 </pre>
-http://
+
