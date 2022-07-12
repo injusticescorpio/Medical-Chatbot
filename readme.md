@@ -24,8 +24,8 @@ Arista is a medical chatbot having so many features like disease prediction from
         </pre>
         Inorder to run globally instead of the 3 and 4 commands use the following the commands.
 
-            > Arista 2.O> rasa run actions --cors "*" --debug
-            > Arista 2.O> rasa run -m models --enable-api --cors "*" --debug
+      > Arista 2.O> rasa run actions --cors "*" --debug
+      > Arista 2.O> rasa run -m models --enable-api --cors "*" --debug
 - Inorder to run the Medical website then navigate to Arista_WEB_APP/aristaweb
 - perform
     ```
