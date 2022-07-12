@@ -2,257 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c89570e5-e711-43c8-bc3f-f77a06ac168c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/cache.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmp9dh7d9h4/feature_to_idx_dict.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpjcib19ef/DIETClassifier.data_example.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpjcib19ef/DIETClassifier.entity_tag_specs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpjcib19ef/DIETClassifier.index_label_id_mapping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpjcib19ef/DIETClassifier.label_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpjcib19ef/DIETClassifier.sparse_feature_sizes.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpjcib19ef/DIETClassifier.tf_model.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpjcib19ef/DIETClassifier.tf_model.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpjcib19ef/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpnh6qle2a/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpnh6qle2a/rule_only_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpnh6qle2a/rule_policy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpp54j_ui_/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpp54j_ui_/rule_only_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpp54j_ui_/rule_policy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpsboun7n1/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpsboun7n1/rule_only_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpsboun7n1/rule_policy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpwhc729bf/patterns.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpwxfrbxee/oov_words.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpwxfrbxee/vocabularies.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpxw8q2vcm/oov_words.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/.rasa/cache/tmpxw8q2vcm/vocabularies.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/Terminal_run_code/hospital.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/Terminal_run_code/hospital_available_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/Terminal_run_code/hospital_booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/Terminal_run_code/hospital_booking_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/Terminal_run_code/hospital_booking_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/Terminal_run_code/hospital_booking_whatsapp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/Terminal_run_code/pill_remainder.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/Terminal_run_code/pill_remainder_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/Terminal_run_code/pill_remainder_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/Terminal_run_code/pill_reminding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Ambulance_service/add_ambulance_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Ambulance_service/ambulance.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Ambulance_service/ambulance_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Ambulance_service/ambulance_service_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Ambulance_service/call_sms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/BMI_Calorie_Tracker/BMI_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/BMI_Calorie_Tracker/Calorie_Tracker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/BMI_Calorie_Tracker/Calorie_details.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/BMI_Calorie_Tracker/bmi_exercise_tracker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/BMI_Calorie_Tracker/bmi_info.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/BMI_Calorie_Tracker/lowcalorie.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/BMI_Calorie_Tracker/nutrition_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Blood_Bank/add_blood_bank_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Blood_Bank/blood_bank_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Blood_Bank/bloodbank_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Blood_Bank/call_sms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms/Disease_prediction_symptoms.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms/disease_precaution_description.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Healthy_life_style_tips/healthy_tips.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Hospital_Booking/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Hospital_Booking/add_user_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Hospital_Booking/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Hospital_Booking/hospital_available_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Hospital_Booking/hospital_booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Hospital_Booking/hospital_booking_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Hospital_Booking/hospital_booking_whatsapp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Hospital_Recommender/hospital_recommender.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Medical_news_teller/__init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Medical_news_teller/medical_news_teller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Pill_remainder_advanced/add_patient_details.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Pill_remainder_advanced/pill_remainder_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Pill_remainder_advanced/pill_reminding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Twilio+Flask/.flaskenv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Twilio+Flask/receive_whatsapp_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/covid19/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/covid19/covid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/blood_bank.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/bmi_info.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/credentials.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/data/nlu.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/data/rules.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/data/stories.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/domain.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/endpoints.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/models/20220429-223744-tomato-ascender.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/models/20220507-131829-aged-clef.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/models/20220507-132233-cross-membership.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista 2.O/tests/test_stories.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms/Disease_prediction_symptoms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms/disease_precaution_description.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Chatroom/Chatbot-Widget" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/.idea/Medical Website.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/Arista_frontend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/Earlier_ML_algorithms/ML-Algorithm Decision Tree classifier/Arista_symtoms_model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/Earlier_ML_algorithms/ML-Algorithm Decision Tree classifier/Disease-Prediction-from-Symptoms-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/Earlier_ML_algorithms/ML-Algorithm Decision Tree classifier/raw_data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_app/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_backend/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_backend/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_backend/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/arista_backend/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/arista_backend/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/Medical Website/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/PyWhatKit_DB.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/demo_play.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/demoplay2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/demoplay3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/dennis_formbee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/git_token.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/google_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/cache.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp040g8f53/oov_words.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp040g8f53/vocabularies.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp1cna1pd9/DIETClassifier.data_example.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp1cna1pd9/DIETClassifier.entity_tag_specs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp1cna1pd9/DIETClassifier.index_label_id_mapping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp1cna1pd9/DIETClassifier.label_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp1cna1pd9/DIETClassifier.sparse_feature_sizes.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp1cna1pd9/DIETClassifier.tf_model.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp1cna1pd9/DIETClassifier.tf_model.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp1cna1pd9/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp1emwykfn/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp1emwykfn/memorized_turns.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp2g5qi58g/DIETClassifier.data_example.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp2g5qi58g/DIETClassifier.entity_tag_specs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp2g5qi58g/DIETClassifier.index_label_id_mapping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp2g5qi58g/DIETClassifier.label_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp2g5qi58g/DIETClassifier.sparse_feature_sizes.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp2g5qi58g/DIETClassifier.tf_model.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp2g5qi58g/DIETClassifier.tf_model.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp2g5qi58g/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp2vs6baxr/oov_words.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp2vs6baxr/vocabularies.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp3kbaijww/oov_words.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp3kbaijww/vocabularies.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp4rtsa15y/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp4rtsa15y/rule_only_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp4rtsa15y/rule_policy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp8pzigvcz/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp8pzigvcz/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp8pzigvcz/unexpected_intent_policy.data_example.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp8pzigvcz/unexpected_intent_policy.entity_tag_specs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp8pzigvcz/unexpected_intent_policy.fake_features.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp8pzigvcz/unexpected_intent_policy.label_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp8pzigvcz/unexpected_intent_policy.label_quantiles.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp8pzigvcz/unexpected_intent_policy.meta.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp8pzigvcz/unexpected_intent_policy.priority.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp8pzigvcz/unexpected_intent_policy.tf_model.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp8pzigvcz/unexpected_intent_policy.tf_model.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp_srs9nj1/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp_srs9nj1/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp_srs9nj1/ted_policy.data_example.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp_srs9nj1/ted_policy.entity_tag_specs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp_srs9nj1/ted_policy.fake_features.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp_srs9nj1/ted_policy.label_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp_srs9nj1/ted_policy.meta.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp_srs9nj1/ted_policy.priority.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp_srs9nj1/ted_policy.tf_model.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmp_srs9nj1/ted_policy.tf_model.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpd9lse_uw/oov_words.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpd9lse_uw/vocabularies.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpe0m87k78/patterns.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpfltgh9iu/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpfltgh9iu/memorized_turns.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpi2xmh26t/patterns.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpu_rz374h/feature_to_idx_dict.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpvm201qqt/feature_to_idx_dict.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpww7_eqv9/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpww7_eqv9/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpww7_eqv9/unexpected_intent_policy.data_example.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpww7_eqv9/unexpected_intent_policy.entity_tag_specs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpww7_eqv9/unexpected_intent_policy.fake_features.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpww7_eqv9/unexpected_intent_policy.label_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpww7_eqv9/unexpected_intent_policy.label_quantiles.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpww7_eqv9/unexpected_intent_policy.meta.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpww7_eqv9/unexpected_intent_policy.priority.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpww7_eqv9/unexpected_intent_policy.tf_model.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpww7_eqv9/unexpected_intent_policy.tf_model.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpy6rb3ucs/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpy6rb3ucs/rule_only_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpy6rb3ucs/rule_policy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpz27t18_5/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpz27t18_5/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpz27t18_5/ted_policy.data_example.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpz27t18_5/ted_policy.entity_tag_specs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpz27t18_5/ted_policy.fake_features.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpz27t18_5/ted_policy.label_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpz27t18_5/ted_policy.meta.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpz27t18_5/ted_policy.priority.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpz27t18_5/ted_policy.tf_model.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/.rasa/cache/tmpz27t18_5/ted_policy.tf_model.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/actions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/actions/actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/actions/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/credentials.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/data/nlu.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/data/rules.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/data/stories.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/domain.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/endpoints.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/models/20220327-174643-crispy-cycle.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/models/20220327-181222-forward-guide.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/models/20220327-184259-forward-opacity.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/rasa_loop/tests/test_stories.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/s3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/sc1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/sc2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/scheduler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/sqlite_tutorial/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/sqlite_tutorial/demo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/sqlite_tutorial/demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/sqlite_tutorial/employee.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/sqlite_tutorial/hospital.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/sqlite_tutorial/sql1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/twilio_flask/ .flaskenv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/twilio_flask/add_user_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/twilio_flask/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/twilio_flask/call_purpose_hospital_booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/twilio_flask/hopsital_booking_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/twilio_flask/hospital.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/twilio_flask/hospital_booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/twilio_flask/hospital_booking_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/twilio_flask/receive_email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/twilio_flask/time_getting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arista_old_files/whats_app_message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP" beforeDir="false" afterPath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP/aristaweb/static/assets/css/customcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP/aristaweb/static/assets/css/customcss.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP/aristaweb/static/assets/js/script_full.js" beforeDir="false" afterPath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP/aristaweb/static/assets/js/script_full.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP/aristaweb/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP/aristaweb/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms" beforeDir="false" afterPath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms/data/Symptom-severity.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms/data/dataset.csv" beforeDir="false" />
@@ -260,15 +18,9 @@
       <change beforePath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms/data/symptom_precaution.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms/notebooks/.ipynb_checkpoints/Disease_predictions-checkpoint.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms/notebooks/Disease_predictions.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms/data/Symptom-severity.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms/data/dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms/data/symptom_Description.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms/data/symptom_precaution.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms/notebooks/.ipynb_checkpoints/Disease_predictions-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms/notebooks/Disease_predictions.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista_old_files/Chatroom/Chatbot-Widget/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Arista_old_files/Chatroom/Chatbot-Widget/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista_old_files/Chatroom/Chatbot-Widget/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Arista_old_files/Chatroom/Chatbot-Widget/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms" beforeDir="false" afterPath="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista_old_files/Chatroom/Chatbot-Widget" beforeDir="false" afterPath="$PROJECT_DIR$/Arista_old_files/Chatroom/Chatbot-Widget" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -446,10 +198,10 @@
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.Calorie_Tracker (1)" />
+      <item itemvalue="Python.Calorie_Tracker" />
       <item itemvalue="Python.add_blood_bank_user" />
       <item itemvalue="Python.distance" />
-      <item itemvalue="Python.Calorie_Tracker" />
-      <item itemvalue="Python.Calorie_Tracker (1)" />
       <item itemvalue="Python.pill_remainder_db" />
     </list>
     <recent_temporary>
@@ -492,6 +244,15 @@
       <path value="$PROJECT_DIR$/Chatroom/Chatbot-Widget" />
       <path value="$PROJECT_DIR$/Medical Website/Arista_frontend" />
       <path value="$PROJECT_DIR$/Medical Website/Arista_prototype" />
+      <path value="$PROJECT_DIR$/Arista_WEB_APP" />
+      <path value="$PROJECT_DIR$/Arista_final" />
+      <path value="$PROJECT_DIR$/Arista_final/Arista 2.O/actions/Disease_Prediction_from_symptoms" />
+      <path value="$PROJECT_DIR$/Arista_old_files/Arista_Heart" />
+      <path value="$PROJECT_DIR$/Arista_old_files/Arista_Heart/Disease Prediction from symptoms" />
+      <path value="$PROJECT_DIR$/Arista_old_files/Arista_final" />
+      <path value="$PROJECT_DIR$/Arista_old_files/Chatroom/Chatbot-Widget" />
+      <path value="$PROJECT_DIR$/Arista_old_files/Medical Website/Arista_frontend" />
+      <path value="$PROJECT_DIR$/Arista_old_files/Medical Website/Arista_prototype" />
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">

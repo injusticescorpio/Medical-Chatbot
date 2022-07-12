@@ -1,0 +1,13 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Arista_Heart.Pill_remainder_advanced.pill_remainder_main.*" />
+          <option value="Arista_Heart.Ambulance_service.ambulance_service.hospital_booking" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
