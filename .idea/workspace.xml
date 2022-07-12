@@ -6,10 +6,7 @@
       <change afterPath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms/disease_precaution_description.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP" beforeDir="false" afterPath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP/aristaweb/static/assets/css/customcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP/aristaweb/static/assets/css/customcss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP/aristaweb/static/assets/js/script_full.js" beforeDir="false" afterPath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP/aristaweb/static/assets/js/script_full.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP/aristaweb/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP/aristaweb/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista 2.O/Arista_WEB_APP" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms" beforeDir="false" afterPath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Arista 2.O/actions/Disease_Prediction_from_symptoms/data/Symptom-severity.csv" beforeDir="false" />
