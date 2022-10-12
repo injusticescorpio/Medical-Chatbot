@@ -34,7 +34,7 @@ This repo is participating in hacktoberfest 2022
     ```
 - Test the bot with the [link](http://localhost:8000)
 
-If you need any help for setting up this project please raise an issue for the same.Also you can contact me directly via whatsapp.
+If you need any help for setting up this project please raise an issue for the same.Also you can contact me directly via whatsapp +91 9074774118.
     
 
  
