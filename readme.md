@@ -33,6 +33,8 @@ This repo is participating in hacktoberfest 2022
     python manage.py runserver
     ```
 - Test the bot with the [link](http://localhost:8000)
+
+If you need any help for setting up this project please raise an issue for the same.Also you can contact me directly via whatsapp.
     
 
  
