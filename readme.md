@@ -1,6 +1,13 @@
 # Medical Chatbot
 Arista is a medical chatbot having so many features like disease prediction from symptoms, calorie tracking, hospital booking and much more.
-This repo is participating in hacktoberfest 2022
+This repo is participating in hacktoberfest 2022.
+
+<h2>How to contribute</h2>
+<li>Star this repository</li>
+<li>Fork this repository</li>
+<li>Go through the issues assigned</li>
+<li>Make changes as per the issue</li>
+<li>Create pull request</li>
 
 <h2>Arista Installation</h2>
 
