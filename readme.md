@@ -3,7 +3,7 @@ Arista is a medical chatbot having so many features like disease prediction from
 This repo is participating in hacktoberfest 2022.
 
 <h2>How to contribute</h2>
-<li>Go through the issues assigned<li>
+<li>Go through the issues assigned</li>
 <li>Make changes as per the issue</li>
 <li>Create pull request</li>
 
